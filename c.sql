@@ -19,3 +19,7 @@ VALUES (1, 'Ali Kabiri', 'MBA'),
 (3, Null, 'Data sci');
 
 SELECT * FROM students;
+
+UPDATE students SET full_name = 'Hassan Moradi' WHERE std_id = 3;
+
+SELECT * FROM students;
